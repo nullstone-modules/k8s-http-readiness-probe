@@ -1,0 +1,16 @@
+org_name: nullstone
+name: k8s-http-readiness-probe
+friendly_name: Readiness Probe
+description: Adds an httpGet readiness (Can app receive traffic?) probe to a Kubernetes app
+category: capability
+subcategory: telemetry
+provider_types:
+    - aws
+    - gcp
+platform: k8s
+subplatform: ""
+type: ""
+appCategories:
+    - container
+is_public: true
+tool_name: opentofu

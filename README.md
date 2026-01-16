@@ -1,2 +1,3 @@
 # k8s-http-readiness-probe
-Adds an httpGet readiness probe to a Kubernetes app
+
+Adds an httpGet readiness (Can app receive traffic?) probe to a Kubernetes app
